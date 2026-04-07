@@ -25,7 +25,7 @@ s[i] is a printable ascii character.
 
 SOLUTION:
 
-class Solution {
+''' class Solution {
 public:
     void reverseString(vector<char>& s) {
      int l=0,r=s.size()-1;
