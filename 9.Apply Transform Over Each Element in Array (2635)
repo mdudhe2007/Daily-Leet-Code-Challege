@@ -35,6 +35,7 @@ fn returns an integer.
 
 SOLUTION :
 
+'''
 
 /**
  * @param {number[]} arr
