@@ -53,4 +53,22 @@ Constraints:
 
 SOLUTION:
 
+'''
+
+class Solution {
+public:
+    int mirrorDistance(int n) {
+        int sum=0;
+        int rev=n;
+        while(rev>0)
+        {
+            sum=sum*10+rev%10;
+            rev/=10;
+        }
+        return abs(n-sum);
+    }
+};
+
+'''
+
 
