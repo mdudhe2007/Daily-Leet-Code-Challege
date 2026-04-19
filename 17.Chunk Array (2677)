@@ -39,3 +39,17 @@ arr is a string representing the array.
 
 
 SOLUTION :
+
+'''
+
+/**
+ * @param {Array} arr
+ * @param {number} size
+ * @return {Array}
+ */
+var chunk = function(arr, size) {
+ return _.chunk(arr, size);
+
+};
+
+'''
